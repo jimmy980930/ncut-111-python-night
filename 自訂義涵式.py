@@ -40,12 +40,12 @@ z= add(10)
 print(z)
 '''
 
-def add(x):
+def mul(x):
     b=0
     for i in range(1,x):
         b+=1
         x*=b
     return x
 
-z= add(10)
+z= mul(10)
 print(z)
