@@ -79,14 +79,5 @@ for f in funcs:
     print(clacAll(x, f))
 '''
 
-def calc(w, *args): # (乘號) *name表不定數量的參數
-    for arg in args:
-        w= w* arg
-    return w
-y = calc(2 , 4,5,6,7) # 2以外都是args參數
-print(y)
 
-def prn( name ,**drink): # **name 不定數量的指定參數 ex: a=1 ,b=2 ==>drink
-    print(name ,drink)
-prn('查爾斯',a='手沖',b='暴沖')
     
